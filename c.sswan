@@ -1,0 +1,17 @@
+{
+    "uuid": "998b89a1-a66c-46a5-94c3-f56ae6a9d43b",
+    "name": "FlowVPN c",
+    "type": "ikev2-eap",
+    "remote": {
+        "addr": "dc4.hk.01transport.com",
+        "id": "flow.host",
+	"revocation": {
+		"crl": false,
+		"ocsp": false,
+		"strict": false
+	}
+    },
+    "local": {
+        "eap_id": "banye2035@gmail.com" 
+    }
+}
